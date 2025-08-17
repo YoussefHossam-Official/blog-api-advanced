@@ -1,4 +1,3 @@
-# Blog API (Advanced)
 
 **Tech:** Node.js, Express, MongoDB, JWT, Roles, Joi, Swagger
 
@@ -10,13 +9,6 @@
 - Joi validation + centralized error handling
 - Swagger docs at `/api/docs`
 
-## Run
-```bash
-cp .env.example .env
-npm i
-npm run dev
-```
-Set `MONGO_URI`, `JWT_SECRET` in `.env`.
 
 ## Key Endpoints
 - `POST /api/auth/register`
